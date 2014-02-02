@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EmergencyPhoneCall</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_devisions">DevisionsActivity</string>
+    <string name="title_activity_districts">DistrictsActivity</string>
+    <string name="title_activity_thana">ThanaActivity</string>
+    <string name="title_activity_calling">CallingActivity</string>
+    <string name="title_activity_input_thana">InputThanaActivity</string>
+    <string name="title_activity_tab">Tab</string>
+
+</resources>
