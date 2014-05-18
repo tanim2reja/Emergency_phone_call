@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="11"
+        android:minSdkVersion="14"
         android:targetSdkVersion="18" />
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -17,8 +17,22 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.emergencyphonecall.MainActivity"
+            android:name="com.example.Fragments.MainActivity"
             android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.Fragments.DevisionsActivity"
+            android:label="@string/title_activity_devisions" >
+        </activity>
+        <activity
+            android:name="com.example.Fragments.DistrictsActivity"
+            android:label="@string/title_activity_districts" >
+        </activity>
+        <activity
+            android:name="com.example.Fragments.ThanaActivity"
+            android:label="@string/title_activity_thana" >
+            
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,33 +40,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.emergencyphonecall.DevisionsActivity"
-            android:label="@string/title_activity_devisions" >
-        </activity>
-        <activity
-            android:name="com.example.emergencyphonecall.DistrictsActivity"
-            android:label="@string/title_activity_districts" >
-        </activity>
-        <activity
-            android:name="com.example.emergencyphonecall.ThanaActivity"
-            android:label="@string/title_activity_thana" >
-        </activity>
-        <activity
-            android:name="com.example.emergencyphonecall.CallingActivity"
+            android:name="com.example.Fragments.CallingActivity"
             android:label="@string/title_activity_calling" >
         </activity>
         <activity
-            android:name="com.example.emergencyphonecall.InputThanaActivity"
+            android:name="com.example.Fragments.InputThanaActivity"
             android:label="@string/title_activity_input_thana" >
         </activity>
         <activity
-            android:name="com.example.emergencyphonecall.LoginActivity"
+            android:name="com.example.Fragments.LoginActivity"
             android:label="@string/title_activity_login"
             android:windowSoftInputMode="adjustResize|stateVisible" >
         </activity>
         <activity
-            android:name="com.example.emergencyphonecall.Tab"
+            android:name="com.example.Fragments.Tabs"
             android:label="@string/title_activity_tab" >
+        </activity>
+        <activity
+            android:name="com.example.Fragments.District"
+            android:label="@string/title_activity_district"
+            android:parentActivityName="android.support.v4.app.FragmentActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.support.v4.app.FragmentActivity" />
         </activity>
     </application>
 

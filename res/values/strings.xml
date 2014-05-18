@@ -10,5 +10,6 @@
     <string name="title_activity_calling">CallingActivity</string>
     <string name="title_activity_input_thana">InputThanaActivity</string>
     <string name="title_activity_tab">Tab</string>
+    <string name="title_activity_district">District</string>
 
 </resources>

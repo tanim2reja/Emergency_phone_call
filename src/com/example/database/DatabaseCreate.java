@@ -1,6 +1,6 @@
 package com.example.database;
 
-import com.example.emergencyphonecall.MainActivity;
+import com.example.Fragments.MainActivity;
 
 import android.content.Context;
 import android.database.SQLException;

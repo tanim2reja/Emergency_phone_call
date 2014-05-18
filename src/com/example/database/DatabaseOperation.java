@@ -1,6 +1,6 @@
 package com.example.database;
 
-import com.example.emergencyphonecall.DistrictsActivity;
+import com.example.Fragments.DistrictsActivity;
 
 import android.content.ContentValues;
 import android.content.Context;

@@ -1,9 +1,10 @@
 package com.example.UtilClasses;
 
 
+import com.example.Fragments.ThanaActivity;
+import com.example.Fragments.ThanaActivity.PhoneCallListener;
 import com.example.emergencyphonecall.R;
-import com.example.emergencyphonecall.ThanaActivity;
-import com.example.emergencyphonecall.ThanaActivity.PhoneCallListener;
+
 
 
 

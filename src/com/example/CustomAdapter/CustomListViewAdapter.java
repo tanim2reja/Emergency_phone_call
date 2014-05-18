@@ -2,8 +2,8 @@ package com.example.CustomAdapter;
 
 import java.util.List;
 
+import com.example.Fragments.ThanaActivity;
 import com.example.emergencyphonecall.R;
-import com.example.emergencyphonecall.ThanaActivity;
 
 import android.app.Activity;
 import android.content.Context;
